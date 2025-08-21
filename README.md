@@ -1,6 +1,6 @@
 # Agent-based Test Support Systems (AbTSS)
 
-[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
 ![DCD overview diagram](/doc/ACCEL.svg)
 
@@ -8,7 +8,7 @@ This repository contains the official implementation of the paper:
 
 **"TOWARDS AGENT-BASED TEST SUPPORT SYSTEMS: AN UNSUPERVISED ENVIRONMENT DESIGN APPROACH"**  
 by *Collins O. Ogbodo, Timothy J. Rogers, Mattia Dal Borgo, and David J. Wagg*  
-Preprint available on [arXiv]()
+Preprint available on [arXiv](https://arxiv.org/abs/2508.14135)
 
 ---
 
@@ -28,6 +28,7 @@ Preprint available on [arXiv]()
 
 ## Setup
 To install the necessary dependencies, run the following commands:
+Install [Ansys Mechanical Student Version](https://www.ansys.com/en-gb/academic/students/ansys-student) 
 ```
 conda create --name dcd python=3.8
 conda activate dcd
@@ -49,10 +50,10 @@ python eval.py
 ---
 ## Citation
 ```
-@article{ogbodo2025adaptive,
-  title={Adaptive Sensor Steering Strategy Using Deep Reinforcement Learning for Dynamic Data Acquisition in Digital Twins},
+@article{ogbodo2025towards,
+  title={Towards Agent-based Test Support Systems: An Unsupervised Environment Design Approach},
   author={Ogbodo, Collins O and Rogers, Timothy J and Borgo, Mattia Dal and Wagg, David J},
-  journal={arXiv preprint arXiv:2504.10248},
+  journal={arXiv preprint arXiv:2508.14135},
   year={2025}
 }
 ```
